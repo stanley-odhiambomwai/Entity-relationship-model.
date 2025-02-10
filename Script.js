@@ -4,3 +4,12 @@ const Gymnasium = {
     address: "123 Main St",
     phone: "123-456-7890"
   };
+  const Member = {
+    id: 101,
+    lastName: "Doe",
+    firstName: "John",
+    address: "456 Elm St",
+    dob: "1990-05-15",
+    gender: "Male",
+    gymId: Gymnasium.id
+  };
