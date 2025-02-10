@@ -30,3 +30,8 @@ const Gymnasium = {
     maxCapacity: 20,
     coaches: [Coach.id]
   };
+
+  const MemberSession ={
+    memberId : Member.id,
+    SessionId: Session.id
+  };
