@@ -40,3 +40,5 @@ const Gymnasium = {
     coachId: Coach.id,
     sessionId: Session.id
   };
+
+  console.log({ Gymnasium, Member, Coach, Session, MemberSession, CoachSession });
