@@ -21,3 +21,12 @@ const Gymnasium = {
     age: 35,
     specialty: "Yoga"
   };
+
+  const Session = {
+    id: 301,
+    sportType: "Yoga",
+    schedule: "Monday 10AM",
+    gymId: Gymnasium.id,
+    maxCapacity: 20,
+    coaches: [Coach.id]
+  };
