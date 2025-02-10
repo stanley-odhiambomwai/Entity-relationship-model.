@@ -13,3 +13,11 @@ const Gymnasium = {
     gender: "Male",
     gymId: Gymnasium.id
   };
+
+  const Coach = {
+    id: 201,
+    lastName: "Daniel",
+    firstName: "James",
+    age: 35,
+    specialty: "Yoga"
+  };
